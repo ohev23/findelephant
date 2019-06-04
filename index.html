@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title></title>
+</head>
+<body>
+    <div>
+    	<div class="points"><h2>очки:100</h2></div>
+    	<div class="n" style="background-image: url('antilop.jpg');position: absolute; height: 150px;width: 160px;background-size:100% 100%;margin-left: 100px; margin-top: 200px ">
+    	</div>
+
+    	<div class="a" style="background-image: url('begemot.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 1100px; margin-top: 100px ">
+    	</div>
+
+    	<div class="b" style="background-image: url('korova.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 1000px; margin-top: 300px ">
+    	</div>
+
+    	<div class="s" style="position: absolute;height: 300px;width: 260px;background-size:100% 100%;margin-left: 650px; margin-top: 250px ;display: none">
+    		<h1>Где спрятан жираф?</h1>
+    	</div>
+
+    	<div class="c" style="background-image: url('giena.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 150px; margin-top: 500px ">
+    	</div>
+
+    	<div class="d" style="background-image: url('lion.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 700px; margin-top: 400px ">
+    	</div>
+
+    	<div class="e" style="background-image: url('elephant.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 800px; margin-top: 600px ">
+    	</div>
+
+    	<div class="f" style="background-image: url('jiraf.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 1000px; margin-top: 500px ">
+    	</div>
+
+    	<div class="g" style="background-image: url('zebra.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 370px; margin-top: 300px ">
+    	</div>
+
+    	<div class="h" style="background-image: url('nosorog.jpg');position: absolute;height: 150px;width: 160px;background-size:100% 100%;margin-left: 600px; margin-top: 50px ">
+    	</div>
+
+
+    </div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	let points = 100;
+	let a= function(){
+		document.querySelector(".a").style.background="black";
+		document.querySelector(".b").style.background="black";
+		document.querySelector(".c").style.background="black";
+		document.querySelector(".d").style.background="black";
+		document.querySelector(".e").style.background="black";
+		document.querySelector(".f").style.background="black";
+		document.querySelector(".g").style.background="black";
+		document.querySelector(".h").style.background="black";
+		document.querySelector(".n").style.background="black";
+		document.querySelector(".s").style.display="block";
+
+
+	}
+	setTimeout(a,3000)
+	document.querySelector(".a").onclick = function(){document.querySelector(".a").style.backgroundImage="url('begemot.jpg')".alert("неправильно");}
+	document.querySelector(".b").onclick = function(){document.querySelector(".b").style.backgroundImage="url('be.jpg')"alert("неправильно");}
+	document.querySelector(".f").onclick = function(){document.querySelector(".f").style.backgroundImage="url('jiraf.jpg')"alert("правильно").;}
+
+
+</script>
+</body>
+</html>
+
